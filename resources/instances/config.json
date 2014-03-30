@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"cid": {
+			"name": "cid",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "cid",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "description",
+			"order": 1
+		},
+		"parent": {
+			"name": "parent",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "parent",
+			"order": 2
+		},
+		"captype": {
+			"name": "captype",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "captype",
+			"order": 3
+		}
+	}
+}

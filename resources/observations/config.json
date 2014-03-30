@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"instance": {
+			"name": "instance",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "instance",
+			"order": 0
+		},
+		"series": {
+			"name": "series",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "series",
+			"order": 1
+		},
+		"date": {
+			"name": "date",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "date",
+			"order": 2
+		},
+		"duration": {
+			"name": "duration",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "duration",
+			"order": 3
+		},
+		"value": {
+			"name": "value",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "value",
+			"order": 4
+		},
+		"uom": {
+			"name": "uom",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "uom",
+			"order": 5
+		}
+	}
+}
